@@ -1,8 +1,24 @@
-public class HelloWorld {
+public class MainClass {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Welcome to" + "\n" + "Java Programming!");
+		int a = 5;
+		long a1 = 3000000000L;
+		short a2 = 15;
+		byte a3 = -8;
+		double b = 0.5;
+		float c = 15.0F;
+		char d = 'C';
+		boolean e = true;
+		
+		System.out.println("Welcome to Java Programming!");
+			
+		System.out.println("Now we have guests! Welcome, numbers!");
+		System.out.print("Hi! I'm an int value = "+a+". Here are some of my forms: long = "+a1+", short = "+a2+" and byte = "+a3+"\n"+
+						 "Hi! I'm a double value = "+b+"\n"+"And I'm float = "+c+"\n"+"Do not forget us! I can print some letters, I'm char = "+d+
+						 ". And I'm boolean = "+e+"! I can be false or true!");
+		
+		
 
 	}
 
